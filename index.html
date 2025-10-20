@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facciones enemigas de Warframe</title>
+    <link rel="icon" type="image/x-icon" href="img/IconoWF.ico">
+    <style>
+    * {
+    box-sizing: border-box;
+    }
+
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Style the header */
+    header {
+    background-color: #87a6eb;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(253, 250, 253);
+    }
+
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+    float: left;
+    width: 10%;
+    height: 1800px; /* only for demonstration, should be removed */
+    background: #69dfc1;
+    padding: 20px;
+    }
+
+    /* Style the list inside the menu */
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    }
+
+    article {
+    float: left;
+    padding: 25px;
+    width: 85%;
+    background-color: #f1f1f1;
+    
+
+    }
+
+    /* Clear floats after the columns */
+    section::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    /* Style the footer */
+    footer {
+    background-color: #87a6eb;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    }
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+    }
+</style>
+</head>
+<body>
+    <header>Bienvenido a mi página de información de Warframe
+        <h1>FACCIONES ENEMIGAS EN EL SISTEMA ORIGEN DE WARFRAME</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href= "#inicio">Inicio</a></li>
+            <li><a href= "#acerca">Acerda de</a></li>
+            <li><a href="#miproducto">Mi Producto</a></li>
+            <li><a href= "#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <article>
+    <section id="inicio">
+        <h2>INICIO</h2>
+        <p>El Sistema Origen es un vasto y peligroso territorio, lleno de secretos oscuros y criaturas que desafían las leyes de la 
+            naturaleza. En este desolado rincón del universo, los Tenno, guerreros místicos despertados de un largo sueño, deben 
+            enfrentarse a diversas facciones enemigas, cada una con sus propios motivos y ambiciones. Desde los implacables Grineer, 
+            con su ejército militarizado y sus ambiciones expansionistas, hasta los Corpus, despiadados mercaderes de la tecnología 
+            que no dudan en explotar todo a su paso, el camino de los Tenno está plagado de amenazas. Pero estas facciones no 
+            son las únicas que se interponen en su lucha por la supervivencia. Los Infestados y los Orokin, cada uno con sus 
+            oscuros secretos, también desempeñan un papel crucial en el conflicto.
+            En esta sección, exploraremos las principales 
+            facciones que habitan el Sistema Origen y sus intereses, 
+            tácticas y la historia detrás de cada uno de ellos. Prepárate para descubrir a los enemigos que los Tenno deben enfrentarse, 
+            sus motivaciones y cómo cada uno contribuye al caos que define este universo. 
+        </p>
+    </section>
+
+    <section id="acerca">
+        <h2>Acerca de</h2>
+        <p>
+            Esta página nace de la pasión por el universo de Warframe y el deseo de profundizar en uno de sus aspectos más fascinantes: 
+            las facciones enemigas que habitan el Sistema Origen. Aquí encontrarás información detallada, análisis y curiosidades sobre 
+            cada una de estas facciones —desde los brutales Grineer hasta los misteriosos Sentients— con el objetivo de ayudar tanto a 
+            nuevos jugadores como a veteranos a comprender mejor el trasfondo, la evolución y el impacto de cada enemigo en el juego.
+
+            Nuestro propósito es ofrecer una fuente confiable y actualizada para quienes quieran explorar el lore, la estrategia y la 
+            complejidad de estas organizaciones que moldean el conflicto en Warframe. Ya sea que busques mejorar tu conocimiento táctico 
+            o simplemente quieras conocer más sobre la historia detrás del caos, esta página es para ti.
+        </p>
+    </section>
+
+    <section id="miproducto">
+        <h2>Facciones enemigas en el sistema origen</h2>
+        <p>
+            Aqui se presentan las facciones enemigas que se encuentran en el sistema origen del unvierso de Warframe.
+        </p>
+        <ul>
+            <li>Facción Corpus</li>
+            <img src="img/Corpus.png" alt="Imagen de Corpus" style="width:500px;height:500px;">
+            <li>Facción Grineer</li>
+            <img src="img/Grineer.jpg" alt="Imagen de Grineers" style="width:500px;height:500px;">
+        </ul>
+        <table border =1>
+            <tr>
+                <th>Información</th>
+                <th>Corpus</th>
+                <th>Grineer</th>
+            </tr>
+            
+            <tr>
+                <th>Primera visita</th>
+                <td>Planeta Venus, Fortuna</td>
+                <td>Planeta Tierra, Cetus</td>
+            </tr>
+
+            <tr>
+                <th>Descripción</th>
+                <td>Robots avanzados</td>
+                <td>Clones mutantes</td>
+            </tr>
+            <tr>
+                <th>Armas poderosas</th>
+                <td>Anuladores de habilidad</td>
+                <td>Misiles dirigidos</td>
+            </tr>
+            <tr>
+                <th>Debilidad</th>
+                <td>Radiación o magnétismo</td>
+                <td>Toxina o Gas</td>
+            </tr>
+            <tr>
+                <th>Jefe</th>
+                <td>Parvos Granum</td>
+                <td>Till Regor</td>
+            </tr>
+        </table>
+
+    </section>
+    </article>
+</body>
+
+  
+    <section id="contacto">
+        <footer>
+        <h2>Contacto</h2>
+        <p>Lenin anchatuña <br>
+        Tel: 979040773<br> 
+        <a href="mailto:ljanchatuna@espe.edu.ec">ljanchatuna@espe.edu.ec</a>
+        <a href="mailto:leninjosue2006@gmail.com">leninjosue2006@gmail.com</a>
+        </p>
+        </footer>
+    </section>
+    
+
+</html>
