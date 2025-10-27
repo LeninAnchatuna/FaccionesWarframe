@@ -71,6 +71,7 @@
     }
 </style>
 </head>
+
 <body>
     <header>Bienvenido a mi página de información de Warframe
         <h1>FACCIONES ENEMIGAS EN EL SISTEMA ORIGEN DE WARFRAME</h1>
@@ -82,6 +83,7 @@
             <li><a href= "#acerca">Acerda de</a></li>
             <li><a href="#miproducto">Mi Producto</a></li>
             <li><a href= "#contacto">Contacto</a></li>
+            <li><a href=" #formulario">Formulario</a></li> 
         </ul>
     </nav>
 
@@ -127,6 +129,7 @@
             <li>Facción Grineer</li>
             <img src="img/Grineer.jpg" alt="Imagen de Grineers" style="width:500px;height:500px;">
         </ul>
+        <p>Información general de las facciones</p>
         <table border =1>
             <tr>
                 <th>Información</th>
@@ -163,11 +166,36 @@
         </table>
 
     </section>
-    </article>
-</body>
+    <section id="formulario">
+        <p>Informanos sobre tu experiencia de exterminio con estas facciones enemigas:</p>
+        <form>
+            <label for="usuario">Usuario</label><br>
+            <input type="text" id="usuario" name="usuario"><br><br>
 
-  
-    <section id="contacto">
+            <label for="faccion">Facción exterminada</label><br>
+            <input type="radio" id="corpus" name="fac_exterminada" value="CORPUS">
+            <label for="corpus">Corpus</label><br>
+            <input type="radio" id="grineer" name="fac_exterminada" value="RINEER">
+            <label for="grineer">Grineer</label><br><br>
+
+            <label for="tipoArma">Tipo de arma/s usada/s</label><br>
+            <input type="checkbox" id="primaria" name="primaria" value="PRIMARIA">
+            <label for="primaria"> Arma primaria</label><br>
+            <input type="checkbox" id="secundaria" name="secundaria" value="SECUNDARIA">
+            <label for="secundaria"> Arma secundaria</label><br>
+            <input type="checkbox" id="melee" name="melee" value="MELEE">
+            <label for="melee"> Arma cuerpo a cuerpo</label><br><br>
+
+            <label for="fav_arma">Arma favorita</label><br>
+            <input type="text" id="fav_arma" name="fav_arma"><br><br>
+
+            <input type="submit" value="Enviar formulario">
+            <input type="reset" value="Borrar formulario">
+        </form>
+    </section>
+    </article>
+
+      <section id="contacto">
         <footer>
         <h2>Contacto</h2>
         <p>Lenin anchatuña <br>
@@ -177,6 +205,10 @@
         </p>
         </footer>
     </section>
+</body>
+
+  
+  
     
 
 </html>
